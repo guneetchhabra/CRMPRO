@@ -1,5 +1,9 @@
 package com.crm.qa.testcases;
 
+/*Author 
+ * is 
+ * Guneet 
+ * Chhabra*/
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -49,7 +53,7 @@ public class ContactsPageTest extends TestBasePage{
 	@Test(priority=2)
 	public void selectContactsTest() {
 		contactsPage=homePage.clickOnContactsLink();
-		contactsPage.selectContacts("A30 ydv");
+		contactsPage.selectContacts("Guneet Chhabra");
 		}
 	
 	@DataProvider
